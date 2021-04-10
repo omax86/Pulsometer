@@ -1,0 +1,177 @@
+.promo {
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url(../img/bg1.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &__header {
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 42px;
+    }
+    &__subheader {
+        margin-top: 17px;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+    &__icons {
+        margin-top: 65px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        width: 108px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__link {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+        }
+        a {
+            color: #ffffff;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .promo {
+            min-height: 600px;
+            padding: 21px 0 53px 0;
+            .header {
+                padding: 0 75px;
+            }
+            &__wrapper {
+                padding: 0 75px;
+                margin-top: 70px;
+            }
+            &__icons {
+                margin-top: 45px;
+            }
+            .button_main {
+                margin-top: 47px;
+            }
+        }
+    }
+    
+    @media (max-width: 991px) {
+        .promo {
+            min-height: 540px;
+            padding: 11px 0 13px 0;
+            .header {
+                padding: 0 25px;
+            }
+            &__wrapper {
+                padding: 0 25px;
+                margin-top: 60px;
+            }
+            &__header {
+                font-size: 40px;
+            }
+            &__subheader {
+                margin-top: 12px;
+                font-size: 23px;
+            }
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .promo {
+            min-height: 450px;
+            padding: 7px 0 8px 0;
+            background: url(../img/bg1.jpg) 30% (center/cover) no-repeat;
+            .header {
+                padding: 0 15px;
+                &__logo {
+                    width: 150px;
+                }
+                &__official {
+                    font-size: 11px;
+                    span {
+                        font-size: 14px;
+                    }
+                }
+                &__phone {
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                .button {
+                    width: 120px;
+                    height: 25px;
+                    font-size: 10px;
+                }
+            }
+            &__header {
+                font-size: 34px;
+            }
+            &__subheader {
+                margin-top: 0;
+                font-size: 20px;
+            }
+            &__wrapper {
+                padding: 0 15px;
+                margin-top: 40px;
+            }
+            &__icons {
+                margin-top: 20px;
+            }
+            .button {
+                &_main {
+                    margin-top: 27px;
+                    width: 200px;
+                    height: 40px;
+                    font-size: 12px;
+                }
+            }
+            &__link {
+                font-size: 12px;
+            }
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .promo {
+            .header {
+                padding: 0 10px;
+                &__official {
+                    display: none;
+                }
+            }
+            &__wrapper {
+                padding: 0 10px;
+            }
+            &__header {
+                font-size: 30px;
+                text-align: center;
+            }
+            &__subheader {
+                font-size: 18px;
+                text-align: center;
+            }
+            &__icons {
+                width: 300px;
+            }
+        }
+    }
+    
+    
