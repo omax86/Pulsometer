@@ -8,10 +8,10 @@ const rename = require("gulp-rename");
 gulp.task('server', function() {
     browserSync.init({
         server: {
-            baseDir: "src"
+            baseDir: "./"
         }
     });
-    gulp.watch("src/*.html").on('change', browserSync.reload);
+    gulp.watch("./*.html").on('change', browserSync.reload);
 });
 
 gulp.task('styles', function() {
