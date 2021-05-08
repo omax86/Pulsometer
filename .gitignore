@@ -20,4 +20,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# some tools
+.vscode/
+.idea/
+
+# files
 src/sass/base/_media.scss
