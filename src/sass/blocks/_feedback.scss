@@ -2,10 +2,10 @@
     margin: 0 10px;
     padding-bottom: 21px;
     &_wrapper {
-        margin-top: 70px;
+        margin: 20px 0;
     }
     &_unit {
-        margin: 100px 0 100px 0;
+        padding: 50px 0;
         display: flex;
         justify-content: space-between;
         img {
@@ -37,6 +37,9 @@
 
 @media (max-width: 768px) {
     .feedback {
+        &_unit {
+            padding: 30px 0;
+        }
         img {
             height: 100px;
             width: auto;
@@ -49,7 +52,11 @@
 
 @media (max-width: 575px) {
     .feedback {
+        &_wrapper {
+            margin: 20px 0 10px 0;
+        }
         &_unit {
+            padding: 25px 0;
             flex-direction: column;
             align-items: center;
         }
