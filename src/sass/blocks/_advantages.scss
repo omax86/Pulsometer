@@ -20,6 +20,12 @@
         .icon {
             width: 70px;
             height: 70px;
+            &_heart_animated {
+                animation: heartbeat 1.5s ease infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
         }
         .icons_label {
             margin-top: 38px;

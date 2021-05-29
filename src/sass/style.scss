@@ -1,4 +1,5 @@
 @import 'base/variables';
+@import 'base/animations.scss';
 * {
     font-family: 'MuseoSansCyrl';
 }
@@ -15,5 +16,9 @@
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
-@import 'blocks/_feedback.scss';
+@import 'blocks/feedback.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/modal.scss';
+@import 'blocks/pageup.scss';
+
 
