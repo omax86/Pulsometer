@@ -9,3 +9,11 @@
         transform: scale(1);
     }
 }
+
+.animate__animated {
+    --animate-duration: 2s;
+}
+
+:root {
+    --animate-delay: 1500ms;
+}
